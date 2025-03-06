@@ -1,0 +1,256 @@
+*
+    {
+        margin: 0px;
+    }
+body
+    {
+        background-color: rgb(209, 223, 217);
+    }
+#header
+    {
+        height: 215px;
+        color: aqua;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 1000px;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        text-shadow: 1px 5px 10px rgba(0,0,0,0.75);
+    }
+header
+    {
+        height: 250px;
+        background: linear-gradient(180deg, rgba(0,123,78,1) 85%, rgba(0,123,78,0) 100%);
+        margin-bottom: 150px;
+    }
+#logo
+    {
+        width: 175px; height: 175px;
+        padding: 20px;
+        transition: 
+            scale 0.5s ease;
+    }
+#logo:hover
+    {
+        rotate: 360deg;
+        scale: 105%;
+        animation: tourne 2s infinite 0.5s;
+    }
+@keyframes tourne 
+	{
+		0% {
+			rotate: 0deg;
+		}
+        100% {
+            rotate: 360deg;
+        }
+	}
+h1
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 1000;
+        color: rgb(0, 61, 39);
+        font-size: 55px;
+        text-align: center;
+        margin-top: 80px; margin-bottom: 50px;
+    }
+h2
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 1000;
+        color: rgb(0, 61, 39);
+        font-size: 35px;
+        margin-left: 25px;
+        margin-top: 40px; margin-bottom: 25px;
+    }
+h3
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 1000;
+        color: rgb(0, 61, 39);
+        font-size: 26.5px;
+    }
+h4
+    {
+        font-family: Tahoma, Geneva, Verdana sans-serif;
+        font-weight: 700;
+        color: rgb(0, 61, 39);
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+.paragraph
+    {
+        background-color: rgb(235, 255, 246);
+        border-radius: 5px;
+        padding: 35px;
+        width: 1150px;
+        height: auto;
+        margin-left: auto; margin-right: auto; /* Aligner à l'horizontal de la page */
+        margin-bottom: 100px;
+    }
+body
+    {
+        text-align: justify;
+        color: rgb(28, 51, 31);
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.paragraph b
+    {
+        color: rgb(42, 95, 51);
+        font-family: Helvetica, Arial, sans-serif;
+        text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.15);
+        padding: 3px;
+    }
+
+hr
+    {
+        border: rgb(30, 119, 65) 3px solid;
+        border-radius: 2px;
+        width: 75%;
+        margin-left: auto; margin-right: auto;
+        margin-top: 115px; margin-bottom: 115px
+    }
+.paragraph img
+    {
+        transition: 
+            scale 0.15s ease,
+            border-radius 0.15s ease,
+            outline 0.5s ease;
+        border-radius: 10px;
+        margin-left: auto; margin-right: auto;
+        margin-top: 35px; margin-bottom: 25px;
+        align-items: center;
+        display: flex;
+        outline: 2px rgba(0, 0, 0, 0.1) solid;
+    }
+#meilleures_IAs
+    {
+        margin-left: 50px;
+    }
+li
+    {
+        margin-top: 15px;
+        transition: 
+            transform 0.5s ease,
+            background-color 0.5s ease,
+            padding 0.25s ease;
+        border-radius: 10px;
+    }
+ul li ul li:hover, ul li:hover
+    {
+        transform: translateX(-15px);
+        border-radius: 10px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.025);
+        transition: 
+            transform 0.5s ease,
+            background-color 0.5s ease,
+            padding 0.25s ease;
+    }
+ul li ul li:hover
+    {
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+ul
+    {
+        margin-bottom: 25px;
+    }
+ul ::marker
+    {
+        color: rgb(0, 61, 39);
+        font-size: 137%;
+    }
+li ::marker
+    {
+        color: rgb(42, 95, 51);
+        font-size: 110%;
+    }
+.paragraph img:hover
+    {
+        transition: 
+            scale 0.25s ease,
+            border-radius 0.25s ease,
+            outline 0.25s ease;
+        scale: 102%;
+        border-radius: 0px;
+        outline: 2px rgba(0, 0, 0, 0.15) solid;
+    }
+
+::selection
+	{
+		background-color: rgb(16, 42, 18);
+		color: rgb(184, 229, 188);
+	}
+
+::-webkit-scrollbar
+	{
+		width: 18px;
+	}
+::-webkit-scrollbar-track
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(169, 224, 169);
+	}
+::-webkit-scrollbar-track:hover
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(150, 226, 146);
+	}
+::-webkit-scrollbar-track:active
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(138, 203, 134);
+	}
+::-webkit-scrollbar-button
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(62, 162, 112);
+        border-radius: 15%;
+		cursor: pointer;
+	}
+::-webkit-scrollbar-button:hover
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(47, 120, 83);
+		cursor: pointer
+	}
+::-webkit-scrollbar-button:active
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(33, 83, 58);
+		cursor: pointer
+	}
+::-webkit-scrollbar-thumb
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(65, 111, 115);
+        border-radius: 0.25em;
+		height: 100px;
+		border: 1.5px solid rgb(118, 206, 176);
+		cursor: grab;
+	}
+::-webkit-scrollbar-thumb:hover
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(48, 82, 85);
+		border: 2px solid rgb(97, 167, 143);
+		cursor: grab
+	}
+::-webkit-scrollbar-thumb:active
+	{
+		transition:
+			background-color 0.25s ease;
+		background-color: rgb(31, 53, 55);
+		border: 2.75px solid rgb(72, 122, 105);
+		cursor: grabbing
+	}
